@@ -2,18 +2,9 @@
   "version": 1,
   "dfx": "0.11.2",
   "canisters": {
-    "trace_backend": {
+    "trace": {
       "type": "motoko",
-      "main": "src/trace_backend/main.mo"
-    },
-    "trace_frontend": {
-      "type": "assets",
-      "source": [
-        "src/trace_frontend/assets"
-      ],
-      "dependencies": [
-        "trace_backend"
-      ]
+      "main": "src/trace/main.mo"
     }
   },
   "defaults": {
